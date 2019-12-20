@@ -1,0 +1,2342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="g_name" for="graph" attr.name="name" attr.type="string"/>
+  <key id="g_transitivity" for="graph" attr.name="transitivity" attr.type="double"/>
+  <key id="g_mean_distance" for="graph" attr.name="mean_distance" attr.type="double"/>
+  <key id="g_assortativity_degree" for="graph" attr.name="assortativity_degree" attr.type="double"/>
+  <key id="g_k_min" for="graph" attr.name="k_min" attr.type="double"/>
+  <key id="g_k_avg" for="graph" attr.name="k_avg" attr.type="double"/>
+  <key id="g_k_max" for="graph" attr.name="k_max" attr.type="double"/>
+  <key id="g_modularity_greedy" for="graph" attr.name="modularity_greedy" attr.type="double"/>
+  <key id="g_modularity_infomap" for="graph" attr.name="modularity_infomap" attr.type="double"/>
+  <key id="g_modularity_labelprop" for="graph" attr.name="modularity_labelprop" attr.type="double"/>
+  <key id="g_modularity_louvain" for="graph" attr.name="modularity_louvain" attr.type="double"/>
+  <key id="g_modularity_spinglass" for="graph" attr.name="modularity_spinglass" attr.type="double"/>
+  <key id="g_modularity_walktrap" for="graph" attr.name="modularity_walktrap" attr.type="double"/>
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_Cluster_ID_A" for="node" attr.name="Cluster_ID_A" attr.type="double"/>
+  <key id="v_Cluster_ID_B" for="node" attr.name="Cluster_ID_B" attr.type="double"/>
+  <key id="v_comm_greedy" for="node" attr.name="comm_greedy" attr.type="double"/>
+  <key id="v_comm_infomap" for="node" attr.name="comm_infomap" attr.type="double"/>
+  <key id="v_comm_labelprop" for="node" attr.name="comm_labelprop" attr.type="double"/>
+  <key id="v_comm_louvain" for="node" attr.name="comm_louvain" attr.type="double"/>
+  <key id="v_comm_spinglass" for="node" attr.name="comm_spinglass" attr.type="double"/>
+  <key id="v_comm_walktrap" for="node" attr.name="comm_walktrap" attr.type="double"/>
+  <key id="v_id" for="node" attr.name="id" attr.type="string"/>
+  <key id="v_nkcliq3" for="node" attr.name="nkcliq3" attr.type="double"/>
+  <key id="v_nkcliq4" for="node" attr.name="nkcliq4" attr.type="double"/>
+  <key id="v_nfastgreedy" for="node" attr.name="nfastgreedy" attr.type="double"/>
+  <key id="v_nlabelprop" for="node" attr.name="nlabelprop" attr.type="double"/>
+  <key id="v_nasynfluida" for="node" attr.name="nasynfluida" attr.type="double"/>
+  <key id="v_nasynfluidb" for="node" attr.name="nasynfluidb" attr.type="double"/>
+  <key id="v_nasynfluidab" for="node" attr.name="nasynfluidab" attr.type="double"/>
+  <key id="v_aperccliq3" for="node" attr.name="aperccliq3" attr.type="double"/>
+  <key id="v_aperccliq4" for="node" attr.name="aperccliq4" attr.type="double"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <data key="g_name">Test 75 A and B</data>
+    <data key="g_transitivity">0.204629</data>
+    <data key="g_mean_distance">2.21182</data>
+    <data key="g_assortativity_degree">-0.0285907</data>
+    <data key="g_k_min">3</data>
+    <data key="g_k_avg">7.09333</data>
+    <data key="g_k_max">23</data>
+    <data key="g_modularity_greedy">0.387069</data>
+    <data key="g_modularity_infomap">0.387155</data>
+    <data key="g_modularity_labelprop">0.372638</data>
+    <data key="g_modularity_louvain">0.38993</data>
+    <data key="g_modularity_spinglass">0.185367</data>
+    <data key="g_modularity_walktrap">0.339376</data>
+    <node id="n0">
+      <data key="v_name">1</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">8</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">6</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">2</data>
+      <data key="v_comm_spinglass">4</data>
+      <data key="v_comm_walktrap">4</data>
+      <data key="v_id">n0</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">2</data>
+      <data key="v_nasynfluidab">3</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">2</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">3</data>
+      <data key="v_comm_greedy">6</data>
+      <data key="v_comm_infomap">5</data>
+      <data key="v_comm_labelprop">2</data>
+      <data key="v_comm_louvain">1</data>
+      <data key="v_comm_spinglass">3</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n1</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">4</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">3</data>
+      <data key="v_nasynfluidab">7</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">4</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">3</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">7</data>
+      <data key="v_comm_labelprop">3</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">5</data>
+      <data key="v_comm_walktrap">5</data>
+      <data key="v_id">n2</data>
+      <data key="v_nkcliq3">4</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">7</data>
+      <data key="v_nasynfluidab">2</data>
+      <data key="v_aperccliq3">4</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">4</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">7</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">3</data>
+      <data key="v_comm_labelprop">3</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">5</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n3</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">4</data>
+      <data key="v_nasynfluidab">1</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">5</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">3</data>
+      <data key="v_comm_greedy">6</data>
+      <data key="v_comm_infomap">5</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">1</data>
+      <data key="v_comm_spinglass">7</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n4</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">3</data>
+      <data key="v_nasynfluidab">7</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">6</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">2</data>
+      <data key="v_comm_greedy">3</data>
+      <data key="v_comm_infomap">4</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">3</data>
+      <data key="v_comm_spinglass">3</data>
+      <data key="v_comm_walktrap">3</data>
+      <data key="v_id">n5</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">5</data>
+      <data key="v_nasynfluidab">8</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">7</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">7</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">3</data>
+      <data key="v_comm_labelprop">3</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">5</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n6</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">3</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">1</data>
+      <data key="v_nasynfluidab">5</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">3</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">8</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n7</data>
+      <data key="v_nkcliq3">2</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">7</data>
+      <data key="v_nasynfluidab">8</data>
+      <data key="v_aperccliq3">2</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">9</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">1</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">2</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">5</data>
+      <data key="v_comm_spinglass">3</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n8</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">2</data>
+      <data key="v_nasynfluidab">11</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">10</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">1</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">2</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">5</data>
+      <data key="v_comm_spinglass">1</data>
+      <data key="v_comm_walktrap">4</data>
+      <data key="v_id">n9</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">6</data>
+      <data key="v_nasynfluidab">4</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">11</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">4</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">8</data>
+      <data key="v_comm_labelprop">3</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">2</data>
+      <data key="v_comm_walktrap">6</data>
+      <data key="v_id">n10</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">5</data>
+      <data key="v_nasynfluidab">10</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">12</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">7</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">3</data>
+      <data key="v_comm_labelprop">3</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">5</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n11</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">5</data>
+      <data key="v_nasynfluidab">5</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">13</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">3</data>
+      <data key="v_comm_labelprop">3</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">5</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n12</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">7</data>
+      <data key="v_nasynfluidab">2</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">14</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">1</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">2</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">5</data>
+      <data key="v_comm_spinglass">1</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n13</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">2</data>
+      <data key="v_nasynfluidab">11</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">15</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n14</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">7</data>
+      <data key="v_nasynfluidab">11</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">16</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n15</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">6</data>
+      <data key="v_nasynfluidab">10</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">17</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">3</data>
+      <data key="v_comm_infomap">4</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">3</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">3</data>
+      <data key="v_id">n16</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">5</data>
+      <data key="v_nasynfluidab">11</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">18</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">2</data>
+      <data key="v_comm_greedy">3</data>
+      <data key="v_comm_infomap">4</data>
+      <data key="v_comm_labelprop">5</data>
+      <data key="v_comm_louvain">3</data>
+      <data key="v_comm_spinglass">3</data>
+      <data key="v_comm_walktrap">3</data>
+      <data key="v_id">n17</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">8</data>
+      <data key="v_nasynfluidab">4</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">19</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">3</data>
+      <data key="v_comm_greedy">6</data>
+      <data key="v_comm_infomap">8</data>
+      <data key="v_comm_labelprop">2</data>
+      <data key="v_comm_louvain">1</data>
+      <data key="v_comm_spinglass">7</data>
+      <data key="v_comm_walktrap">6</data>
+      <data key="v_id">n18</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">5</data>
+      <data key="v_nasynfluidab">10</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">20</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n19</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">1</data>
+      <data key="v_nasynfluidab">9</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">21</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">8</data>
+      <data key="v_comm_greedy">5</data>
+      <data key="v_comm_infomap">6</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">2</data>
+      <data key="v_comm_spinglass">4</data>
+      <data key="v_comm_walktrap">4</data>
+      <data key="v_id">n20</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">8</data>
+      <data key="v_nasynfluidab">4</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">22</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">7</data>
+      <data key="v_comm_greedy">3</data>
+      <data key="v_comm_infomap">4</data>
+      <data key="v_comm_labelprop">5</data>
+      <data key="v_comm_louvain">3</data>
+      <data key="v_comm_spinglass">5</data>
+      <data key="v_comm_walktrap">3</data>
+      <data key="v_id">n21</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">3</data>
+      <data key="v_nasynfluidab">5</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">23</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">1</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">2</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">5</data>
+      <data key="v_comm_spinglass">1</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n22</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">7</data>
+      <data key="v_nasynfluidab">3</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">24</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">5</data>
+      <data key="v_comm_greedy">5</data>
+      <data key="v_comm_infomap">6</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">2</data>
+      <data key="v_comm_spinglass">4</data>
+      <data key="v_comm_walktrap">4</data>
+      <data key="v_id">n23</data>
+      <data key="v_nkcliq3">5</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">8</data>
+      <data key="v_nasynfluidab">9</data>
+      <data key="v_aperccliq3">5</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">25</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">7</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">3</data>
+      <data key="v_comm_labelprop">3</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">5</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n24</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">1</data>
+      <data key="v_nasynfluidab">3</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">26</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">1</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">2</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">5</data>
+      <data key="v_comm_spinglass">1</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n25</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">2</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">1</data>
+      <data key="v_nasynfluidab">3</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">2</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">27</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">4</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">2</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">5</data>
+      <data key="v_comm_spinglass">1</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n26</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">2</data>
+      <data key="v_nasynfluidab">8</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">28</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">5</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">7</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">3</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n27</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">3</data>
+      <data key="v_nasynfluidab">6</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">29</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">1</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">2</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">5</data>
+      <data key="v_comm_spinglass">1</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n28</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">2</data>
+      <data key="v_nasynfluidab">9</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">30</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">1</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">2</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">5</data>
+      <data key="v_comm_spinglass">1</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n29</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">2</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">1</data>
+      <data key="v_nasynfluidab">3</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">2</data>
+    </node>
+    <node id="n30">
+      <data key="v_name">31</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">5</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">7</data>
+      <data key="v_comm_labelprop">3</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">5</data>
+      <data key="v_comm_walktrap">5</data>
+      <data key="v_id">n30</data>
+      <data key="v_nkcliq3">4</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">7</data>
+      <data key="v_nasynfluidab">2</data>
+      <data key="v_aperccliq3">4</data>
+    </node>
+    <node id="n31">
+      <data key="v_name">32</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">7</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">3</data>
+      <data key="v_comm_labelprop">3</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">5</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n31</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">3</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">1</data>
+      <data key="v_nasynfluidab">5</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">3</data>
+    </node>
+    <node id="n32">
+      <data key="v_name">33</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">7</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">3</data>
+      <data key="v_comm_labelprop">3</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">5</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n32</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">3</data>
+      <data key="v_nasynfluidab">6</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n33">
+      <data key="v_name">34</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">2</data>
+      <data key="v_comm_greedy">3</data>
+      <data key="v_comm_infomap">4</data>
+      <data key="v_comm_labelprop">5</data>
+      <data key="v_comm_louvain">3</data>
+      <data key="v_comm_spinglass">3</data>
+      <data key="v_comm_walktrap">3</data>
+      <data key="v_id">n33</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">4</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">8</data>
+      <data key="v_nasynfluidab">4</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">4</data>
+    </node>
+    <node id="n34">
+      <data key="v_name">35</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">8</data>
+      <data key="v_comm_greedy">5</data>
+      <data key="v_comm_infomap">6</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">2</data>
+      <data key="v_comm_spinglass">4</data>
+      <data key="v_comm_walktrap">4</data>
+      <data key="v_id">n34</data>
+      <data key="v_nkcliq3">3</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">8</data>
+      <data key="v_nasynfluidab">4</data>
+      <data key="v_aperccliq3">3</data>
+    </node>
+    <node id="n35">
+      <data key="v_name">36</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">5</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">7</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">1</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n35</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">1</data>
+      <data key="v_nasynfluidab">2</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n36">
+      <data key="v_name">37</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">4</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n36</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">4</data>
+      <data key="v_nasynfluidab">1</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n37">
+      <data key="v_name">38</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">1</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">2</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">5</data>
+      <data key="v_comm_spinglass">1</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n37</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">2</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">1</data>
+      <data key="v_nasynfluidab">3</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">2</data>
+    </node>
+    <node id="n38">
+      <data key="v_name">39</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">3</data>
+      <data key="v_comm_greedy">6</data>
+      <data key="v_comm_infomap">5</data>
+      <data key="v_comm_labelprop">2</data>
+      <data key="v_comm_louvain">1</data>
+      <data key="v_comm_spinglass">7</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n38</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">3</data>
+      <data key="v_nasynfluidab">7</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">1</data>
+    </node>
+    <node id="n39">
+      <data key="v_name">40</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">5</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">7</data>
+      <data key="v_comm_labelprop">3</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">5</data>
+      <data key="v_comm_walktrap">5</data>
+      <data key="v_id">n39</data>
+      <data key="v_nkcliq3">4</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">8</data>
+      <data key="v_nasynfluidab">2</data>
+      <data key="v_aperccliq3">4</data>
+    </node>
+    <node id="n40">
+      <data key="v_name">41</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">2</data>
+      <data key="v_comm_greedy">3</data>
+      <data key="v_comm_infomap">4</data>
+      <data key="v_comm_labelprop">5</data>
+      <data key="v_comm_louvain">3</data>
+      <data key="v_comm_spinglass">3</data>
+      <data key="v_comm_walktrap">3</data>
+      <data key="v_id">n40</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">3</data>
+      <data key="v_nasynfluidab">6</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n41">
+      <data key="v_name">42</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">2</data>
+      <data key="v_comm_greedy">3</data>
+      <data key="v_comm_infomap">4</data>
+      <data key="v_comm_labelprop">5</data>
+      <data key="v_comm_louvain">3</data>
+      <data key="v_comm_spinglass">3</data>
+      <data key="v_comm_walktrap">3</data>
+      <data key="v_id">n41</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">7</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">4</data>
+      <data key="v_nasynfluidab">5</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">7</data>
+    </node>
+    <node id="n42">
+      <data key="v_name">43</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">6</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">2</data>
+      <data key="v_comm_spinglass">4</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n42</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">6</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">7</data>
+      <data key="v_nasynfluidab">1</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">6</data>
+    </node>
+    <node id="n43">
+      <data key="v_name">44</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">4</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">8</data>
+      <data key="v_comm_labelprop">3</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">2</data>
+      <data key="v_comm_walktrap">6</data>
+      <data key="v_id">n43</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">4</data>
+      <data key="v_nasynfluidab">1</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n44">
+      <data key="v_name">45</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">5</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n44</data>
+      <data key="v_nkcliq3">5</data>
+      <data key="v_nkcliq4">6</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">6</data>
+      <data key="v_nasynfluidab">9</data>
+      <data key="v_aperccliq3">5</data>
+      <data key="v_aperccliq4">6</data>
+    </node>
+    <node id="n45">
+      <data key="v_name">46</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">4</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n45</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">4</data>
+      <data key="v_nasynfluidab">1</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n46">
+      <data key="v_name">47</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n46</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">5</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">6</data>
+      <data key="v_nasynfluidab">11</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">5</data>
+    </node>
+    <node id="n47">
+      <data key="v_name">48</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">1</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">2</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">5</data>
+      <data key="v_comm_spinglass">1</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n47</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">2</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">1</data>
+      <data key="v_nasynfluidab">3</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">2</data>
+    </node>
+    <node id="n48">
+      <data key="v_name">49</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">5</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">7</data>
+      <data key="v_comm_labelprop">3</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">5</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n48</data>
+      <data key="v_nkcliq3">5</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">8</data>
+      <data key="v_nasynfluidab">9</data>
+      <data key="v_aperccliq3">5</data>
+    </node>
+    <node id="n49">
+      <data key="v_name">50</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">7</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n49</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">6</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">6</data>
+      <data key="v_nasynfluidab">5</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">6</data>
+    </node>
+    <node id="n50">
+      <data key="v_name">51</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n50</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">4</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">6</data>
+      <data key="v_nasynfluidab">11</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">4</data>
+    </node>
+    <node id="n51">
+      <data key="v_name">52</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n51</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">6</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">6</data>
+      <data key="v_nasynfluidab">10</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">6</data>
+    </node>
+    <node id="n52">
+      <data key="v_name">53</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">3</data>
+      <data key="v_comm_greedy">6</data>
+      <data key="v_comm_infomap">5</data>
+      <data key="v_comm_labelprop">2</data>
+      <data key="v_comm_louvain">1</data>
+      <data key="v_comm_spinglass">7</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n52</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">3</data>
+      <data key="v_nasynfluidab">7</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">1</data>
+    </node>
+    <node id="n53">
+      <data key="v_name">54</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">8</data>
+      <data key="v_comm_greedy">5</data>
+      <data key="v_comm_infomap">6</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">2</data>
+      <data key="v_comm_spinglass">4</data>
+      <data key="v_comm_walktrap">4</data>
+      <data key="v_id">n53</data>
+      <data key="v_nkcliq3">3</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">8</data>
+      <data key="v_nasynfluidab">4</data>
+      <data key="v_aperccliq3">3</data>
+    </node>
+    <node id="n54">
+      <data key="v_name">55</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">8</data>
+      <data key="v_comm_greedy">5</data>
+      <data key="v_comm_infomap">6</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">2</data>
+      <data key="v_comm_spinglass">4</data>
+      <data key="v_comm_walktrap">4</data>
+      <data key="v_id">n54</data>
+      <data key="v_nkcliq3">3</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">8</data>
+      <data key="v_nasynfluidab">4</data>
+      <data key="v_aperccliq3">3</data>
+    </node>
+    <node id="n55">
+      <data key="v_name">56</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">3</data>
+      <data key="v_comm_greedy">6</data>
+      <data key="v_comm_infomap">5</data>
+      <data key="v_comm_labelprop">2</data>
+      <data key="v_comm_louvain">1</data>
+      <data key="v_comm_spinglass">7</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n55</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">7</data>
+      <data key="v_nasynfluidab">7</data>
+      <data key="v_aperccliq3">1</data>
+    </node>
+    <node id="n56">
+      <data key="v_name">57</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n56</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">6</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">6</data>
+      <data key="v_nasynfluidab">8</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">6</data>
+    </node>
+    <node id="n57">
+      <data key="v_name">58</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">1</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">2</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">5</data>
+      <data key="v_comm_spinglass">1</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n57</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">2</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">1</data>
+      <data key="v_nasynfluidab">3</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">2</data>
+    </node>
+    <node id="n58">
+      <data key="v_name">59</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">2</data>
+      <data key="v_comm_greedy">3</data>
+      <data key="v_comm_infomap">6</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">2</data>
+      <data key="v_comm_spinglass">4</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n58</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">7</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">4</data>
+      <data key="v_nasynfluidab">5</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">7</data>
+    </node>
+    <node id="n59">
+      <data key="v_name">60</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">3</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n59</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">5</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">3</data>
+      <data key="v_nasynfluidab">6</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">5</data>
+    </node>
+    <node id="n60">
+      <data key="v_name">61</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">1</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">2</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">5</data>
+      <data key="v_comm_spinglass">1</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n60</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">2</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">4</data>
+      <data key="v_nasynfluidab">3</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">2</data>
+    </node>
+    <node id="n61">
+      <data key="v_name">62</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n61</data>
+      <data key="v_nkcliq3">2</data>
+      <data key="v_nkcliq4">6</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">2</data>
+      <data key="v_nasynfluidab">8</data>
+      <data key="v_aperccliq3">2</data>
+      <data key="v_aperccliq4">6</data>
+    </node>
+    <node id="n62">
+      <data key="v_name">63</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">3</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n62</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">6</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">3</data>
+      <data key="v_nasynfluidab">11</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">6</data>
+    </node>
+    <node id="n63">
+      <data key="v_name">64</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">3</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n63</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">6</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">7</data>
+      <data key="v_nasynfluidab">6</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">6</data>
+    </node>
+    <node id="n64">
+      <data key="v_name">65</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">3</data>
+      <data key="v_comm_greedy">6</data>
+      <data key="v_comm_infomap">5</data>
+      <data key="v_comm_labelprop">2</data>
+      <data key="v_comm_louvain">1</data>
+      <data key="v_comm_spinglass">7</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n64</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">6</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">3</data>
+      <data key="v_nasynfluidab">7</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">6</data>
+    </node>
+    <node id="n65">
+      <data key="v_name">66</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">3</data>
+      <data key="v_comm_greedy">6</data>
+      <data key="v_comm_infomap">5</data>
+      <data key="v_comm_labelprop">2</data>
+      <data key="v_comm_louvain">1</data>
+      <data key="v_comm_spinglass">7</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n65</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">1</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">4</data>
+      <data key="v_nasynfluidab">7</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">1</data>
+    </node>
+    <node id="n66">
+      <data key="v_name">67</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">2</data>
+      <data key="v_comm_greedy">3</data>
+      <data key="v_comm_infomap">4</data>
+      <data key="v_comm_labelprop">5</data>
+      <data key="v_comm_louvain">3</data>
+      <data key="v_comm_spinglass">3</data>
+      <data key="v_comm_walktrap">3</data>
+      <data key="v_id">n66</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">7</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">3</data>
+      <data key="v_nasynfluidab">6</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">7</data>
+    </node>
+    <node id="n67">
+      <data key="v_name">68</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">2</data>
+      <data key="v_comm_greedy">3</data>
+      <data key="v_comm_infomap">4</data>
+      <data key="v_comm_labelprop">5</data>
+      <data key="v_comm_louvain">3</data>
+      <data key="v_comm_spinglass">3</data>
+      <data key="v_comm_walktrap">3</data>
+      <data key="v_id">n67</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">7</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">3</data>
+      <data key="v_nasynfluidab">6</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">7</data>
+    </node>
+    <node id="n68">
+      <data key="v_name">69</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">1</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">2</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">5</data>
+      <data key="v_comm_spinglass">1</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n68</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">2</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">1</data>
+      <data key="v_nasynfluidab">3</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">2</data>
+    </node>
+    <node id="n69">
+      <data key="v_name">70</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n69</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">6</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">7</data>
+      <data key="v_nasynfluidab">1</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">6</data>
+    </node>
+    <node id="n70">
+      <data key="v_name">71</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">7</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">3</data>
+      <data key="v_comm_labelprop">3</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">5</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n70</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">6</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">6</data>
+      <data key="v_nasynfluidab">5</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">6</data>
+    </node>
+    <node id="n71">
+      <data key="v_name">72</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">7</data>
+      <data key="v_comm_greedy">1</data>
+      <data key="v_comm_infomap">3</data>
+      <data key="v_comm_labelprop">3</data>
+      <data key="v_comm_louvain">4</data>
+      <data key="v_comm_spinglass">5</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n71</data>
+      <data key="v_nkcliq3">2</data>
+      <data key="v_nkcliq4">3</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">1</data>
+      <data key="v_nasynfluidab">5</data>
+      <data key="v_aperccliq3">2</data>
+      <data key="v_aperccliq4">3</data>
+    </node>
+    <node id="n72">
+      <data key="v_name">73</data>
+      <data key="v_Cluster_ID_A">1</data>
+      <data key="v_Cluster_ID_B">1</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">2</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">5</data>
+      <data key="v_comm_spinglass">1</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n72</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">2</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">3</data>
+      <data key="v_nasynfluidb">2</data>
+      <data key="v_nasynfluidab">3</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">2</data>
+    </node>
+    <node id="n73">
+      <data key="v_name">74</data>
+      <data key="v_Cluster_ID_A">3</data>
+      <data key="v_Cluster_ID_B">1</data>
+      <data key="v_comm_greedy">4</data>
+      <data key="v_comm_infomap">2</data>
+      <data key="v_comm_labelprop">4</data>
+      <data key="v_comm_louvain">5</data>
+      <data key="v_comm_spinglass">1</data>
+      <data key="v_comm_walktrap">1</data>
+      <data key="v_id">n73</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">4</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">1</data>
+      <data key="v_nasynfluida">2</data>
+      <data key="v_nasynfluidb">1</data>
+      <data key="v_nasynfluidab">3</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">4</data>
+    </node>
+    <node id="n74">
+      <data key="v_name">75</data>
+      <data key="v_Cluster_ID_A">2</data>
+      <data key="v_Cluster_ID_B">6</data>
+      <data key="v_comm_greedy">2</data>
+      <data key="v_comm_infomap">1</data>
+      <data key="v_comm_labelprop">1</data>
+      <data key="v_comm_louvain">6</data>
+      <data key="v_comm_spinglass">6</data>
+      <data key="v_comm_walktrap">2</data>
+      <data key="v_id">n74</data>
+      <data key="v_nkcliq3">1</data>
+      <data key="v_nkcliq4">6</data>
+      <data key="v_nfastgreedy">1</data>
+      <data key="v_nlabelprop">2</data>
+      <data key="v_nasynfluida">1</data>
+      <data key="v_nasynfluidb">6</data>
+      <data key="v_nasynfluidab">11</data>
+      <data key="v_aperccliq3">1</data>
+      <data key="v_aperccliq4">6</data>
+    </node>
+    <edge source="n0" target="n42">
+      <data key="e_weight">1.13832</data>
+    </edge>
+    <edge source="n0" target="n54">
+      <data key="e_weight">2.51448</data>
+    </edge>
+    <edge source="n0" target="n58">
+      <data key="e_weight">1.69093</data>
+    </edge>
+    <edge source="n0" target="n72">
+      <data key="e_weight">5.23832</data>
+    </edge>
+    <edge source="n1" target="n59">
+      <data key="e_weight">1.2188</data>
+    </edge>
+    <edge source="n1" target="n64">
+      <data key="e_weight">1.47071</data>
+    </edge>
+    <edge source="n1" target="n65">
+      <data key="e_weight">1.09641</data>
+    </edge>
+    <edge source="n1" target="n66">
+      <data key="e_weight">1.60951</data>
+    </edge>
+    <edge source="n2" target="n12">
+      <data key="e_weight">0.0350563</data>
+    </edge>
+    <edge source="n2" target="n30">
+      <data key="e_weight">1.62039</data>
+    </edge>
+    <edge source="n2" target="n39">
+      <data key="e_weight">1.20818</data>
+    </edge>
+    <edge source="n2" target="n74">
+      <data key="e_weight">2.51177</data>
+    </edge>
+    <edge source="n3" target="n45">
+      <data key="e_weight">0.519615</data>
+    </edge>
+    <edge source="n3" target="n48">
+      <data key="e_weight">0.377234</data>
+    </edge>
+    <edge source="n3" target="n71">
+      <data key="e_weight">2.66099</data>
+    </edge>
+    <edge source="n3" target="n72">
+      <data key="e_weight">2.45389</data>
+    </edge>
+    <edge source="n4" target="n12">
+      <data key="e_weight">0.00381879</data>
+    </edge>
+    <edge source="n4" target="n64">
+      <data key="e_weight">1.47071</data>
+    </edge>
+    <edge source="n4" target="n65">
+      <data key="e_weight">1.09641</data>
+    </edge>
+    <edge source="n4" target="n72">
+      <data key="e_weight">2.8273</data>
+    </edge>
+    <edge source="n5" target="n10">
+      <data key="e_weight">0.282843</data>
+    </edge>
+    <edge source="n5" target="n16">
+      <data key="e_weight">1.78697</data>
+    </edge>
+    <edge source="n5" target="n61">
+      <data key="e_weight">1.04438</data>
+    </edge>
+    <edge source="n5" target="n67">
+      <data key="e_weight">2.56239</data>
+    </edge>
+    <edge source="n6" target="n24">
+      <data key="e_weight">1.41156</data>
+    </edge>
+    <edge source="n6" target="n31">
+      <data key="e_weight">1.41156</data>
+    </edge>
+    <edge source="n6" target="n70">
+      <data key="e_weight">1.15784</data>
+    </edge>
+    <edge source="n6" target="n71">
+      <data key="e_weight">1.60091</data>
+    </edge>
+    <edge source="n7" target="n14">
+      <data key="e_weight">1.08177</data>
+    </edge>
+    <edge source="n7" target="n61">
+      <data key="e_weight">1.17312</data>
+    </edge>
+    <edge source="n7" target="n63">
+      <data key="e_weight">1.46598</data>
+    </edge>
+    <edge source="n7" target="n71">
+      <data key="e_weight">1.65509</data>
+    </edge>
+    <edge source="n8" target="n62">
+      <data key="e_weight">1.55969</data>
+    </edge>
+    <edge source="n8" target="n66">
+      <data key="e_weight">1.26849</data>
+    </edge>
+    <edge source="n8" target="n72">
+      <data key="e_weight">1.43244</data>
+    </edge>
+    <edge source="n8" target="n73">
+      <data key="e_weight">1.41961</data>
+    </edge>
+    <edge source="n9" target="n46">
+      <data key="e_weight">1.96512</data>
+    </edge>
+    <edge source="n9" target="n54">
+      <data key="e_weight">0.863347</data>
+    </edge>
+    <edge source="n9" target="n72">
+      <data key="e_weight">1.43244</data>
+    </edge>
+    <edge source="n9" target="n73">
+      <data key="e_weight">1.41961</data>
+    </edge>
+    <edge source="n10" target="n18">
+      <data key="e_weight">1.56221</data>
+    </edge>
+    <edge source="n10" target="n42">
+      <data key="e_weight">1.26834</data>
+    </edge>
+    <edge source="n10" target="n43">
+      <data key="e_weight">2.45816</data>
+    </edge>
+    <edge source="n11" target="n16">
+      <data key="e_weight">1.04146</data>
+    </edge>
+    <edge source="n11" target="n70">
+      <data key="e_weight">1.15784</data>
+    </edge>
+    <edge source="n11" target="n71">
+      <data key="e_weight">1.60091</data>
+    </edge>
+    <edge source="n11" target="n72">
+      <data key="e_weight">1.79099</data>
+    </edge>
+    <edge source="n12" target="n69">
+      <data key="e_weight">2.51046</data>
+    </edge>
+    <edge source="n12" target="n71">
+      <data key="e_weight">2.82414</data>
+    </edge>
+    <edge source="n13" target="n50">
+      <data key="e_weight">0.612318</data>
+    </edge>
+    <edge source="n13" target="n72">
+      <data key="e_weight">1.43244</data>
+    </edge>
+    <edge source="n13" target="n73">
+      <data key="e_weight">3.63626</data>
+    </edge>
+    <edge source="n14" target="n59">
+      <data key="e_weight">1.46267</data>
+    </edge>
+    <edge source="n14" target="n69">
+      <data key="e_weight">1.35263</data>
+    </edge>
+    <edge source="n14" target="n74">
+      <data key="e_weight">1.47605</data>
+    </edge>
+    <edge source="n15" target="n22">
+      <data key="e_weight">1.14824</data>
+    </edge>
+    <edge source="n15" target="n51">
+      <data key="e_weight">0.0523763</data>
+    </edge>
+    <edge source="n15" target="n70">
+      <data key="e_weight">1.68085</data>
+    </edge>
+    <edge source="n15" target="n74">
+      <data key="e_weight">2.49454</data>
+    </edge>
+    <edge source="n16" target="n62">
+      <data key="e_weight">0.0514175</data>
+    </edge>
+    <edge source="n16" target="n74">
+      <data key="e_weight">2.4946</data>
+    </edge>
+    <edge source="n17" target="n20">
+      <data key="e_weight">0.282843</data>
+    </edge>
+    <edge source="n17" target="n33">
+      <data key="e_weight">0.472992</data>
+    </edge>
+    <edge source="n17" target="n67">
+      <data key="e_weight">4.91728</data>
+    </edge>
+    <edge source="n18" target="n51">
+      <data key="e_weight">1.26572</data>
+    </edge>
+    <edge source="n18" target="n64">
+      <data key="e_weight">1.47071</data>
+    </edge>
+    <edge source="n18" target="n65">
+      <data key="e_weight">1.09641</data>
+    </edge>
+    <edge source="n19" target="n68">
+      <data key="e_weight">1.34043</data>
+    </edge>
+    <edge source="n19" target="n69">
+      <data key="e_weight">0.465205</data>
+    </edge>
+    <edge source="n19" target="n71">
+      <data key="e_weight">1.48707</data>
+    </edge>
+    <edge source="n19" target="n74">
+      <data key="e_weight">2.08085</data>
+    </edge>
+    <edge source="n20" target="n23">
+      <data key="e_weight">1.41508</data>
+    </edge>
+    <edge source="n20" target="n54">
+      <data key="e_weight">2.51448</data>
+    </edge>
+    <edge source="n20" target="n63">
+      <data key="e_weight">1.41402</data>
+    </edge>
+    <edge source="n21" target="n66">
+      <data key="e_weight">1.24737</data>
+    </edge>
+    <edge source="n21" target="n67">
+      <data key="e_weight">1.58086</data>
+    </edge>
+    <edge source="n21" target="n70">
+      <data key="e_weight">1.15784</data>
+    </edge>
+    <edge source="n21" target="n71">
+      <data key="e_weight">1.60091</data>
+    </edge>
+    <edge source="n22" target="n55">
+      <data key="e_weight">1.67988</data>
+    </edge>
+    <edge source="n22" target="n72">
+      <data key="e_weight">1.43244</data>
+    </edge>
+    <edge source="n22" target="n73">
+      <data key="e_weight">1.41961</data>
+    </edge>
+    <edge source="n23" target="n44">
+      <data key="e_weight">2.04161</data>
+    </edge>
+    <edge source="n23" target="n48">
+      <data key="e_weight">0.492101</data>
+    </edge>
+    <edge source="n23" target="n53">
+      <data key="e_weight">1.41293</data>
+    </edge>
+    <edge source="n24" target="n47">
+      <data key="e_weight">0.8</data>
+    </edge>
+    <edge source="n24" target="n71">
+      <data key="e_weight">2.66099</data>
+    </edge>
+    <edge source="n24" target="n73">
+      <data key="e_weight">1.41759</data>
+    </edge>
+    <edge source="n25" target="n57">
+      <data key="e_weight">0.901148</data>
+    </edge>
+    <edge source="n25" target="n71">
+      <data key="e_weight">1.92757</data>
+    </edge>
+    <edge source="n25" target="n72">
+      <data key="e_weight">1.43244</data>
+    </edge>
+    <edge source="n25" target="n73">
+      <data key="e_weight">1.41961</data>
+    </edge>
+    <edge source="n26" target="n36">
+      <data key="e_weight">2.46031</data>
+    </edge>
+    <edge source="n26" target="n61">
+      <data key="e_weight">0.668947</data>
+    </edge>
+    <edge source="n26" target="n68">
+      <data key="e_weight">1.85203</data>
+    </edge>
+    <edge source="n26" target="n72">
+      <data key="e_weight">2.16107</data>
+    </edge>
+    <edge source="n27" target="n35">
+      <data key="e_weight">1.30513</data>
+    </edge>
+    <edge source="n27" target="n39">
+      <data key="e_weight">1.30513</data>
+    </edge>
+    <edge source="n27" target="n40">
+      <data key="e_weight">0.784834</data>
+    </edge>
+    <edge source="n27" target="n59">
+      <data key="e_weight">2.04364</data>
+    </edge>
+    <edge source="n28" target="n48">
+      <data key="e_weight">0.377234</data>
+    </edge>
+    <edge source="n28" target="n72">
+      <data key="e_weight">3.88633</data>
+    </edge>
+    <edge source="n28" target="n73">
+      <data key="e_weight">1.41961</data>
+    </edge>
+    <edge source="n29" target="n47">
+      <data key="e_weight">0.399911</data>
+    </edge>
+    <edge source="n29" target="n68">
+      <data key="e_weight">2.42719</data>
+    </edge>
+    <edge source="n29" target="n72">
+      <data key="e_weight">1.43244</data>
+    </edge>
+    <edge source="n29" target="n73">
+      <data key="e_weight">1.41961</data>
+    </edge>
+    <edge source="n30" target="n35">
+      <data key="e_weight">1.30513</data>
+    </edge>
+    <edge source="n30" target="n39">
+      <data key="e_weight">2.5135</data>
+    </edge>
+    <edge source="n31" target="n70">
+      <data key="e_weight">1.15784</data>
+    </edge>
+    <edge source="n31" target="n71">
+      <data key="e_weight">1.60091</data>
+    </edge>
+    <edge source="n31" target="n73">
+      <data key="e_weight">1.41759</data>
+    </edge>
+    <edge source="n32" target="n62">
+      <data key="e_weight">2.86274</data>
+    </edge>
+    <edge source="n32" target="n67">
+      <data key="e_weight">1.43534</data>
+    </edge>
+    <edge source="n32" target="n70">
+      <data key="e_weight">2.22332</data>
+    </edge>
+    <edge source="n32" target="n71">
+      <data key="e_weight">2.66639</data>
+    </edge>
+    <edge source="n33" target="n34">
+      <data key="e_weight">0.519615</data>
+    </edge>
+    <edge source="n33" target="n63">
+      <data key="e_weight">1.45274</data>
+    </edge>
+    <edge source="n33" target="n66">
+      <data key="e_weight">2.10788</data>
+    </edge>
+    <edge source="n33" target="n67">
+      <data key="e_weight">2.60684</data>
+    </edge>
+    <edge source="n33" target="n73">
+      <data key="e_weight">3.27121</data>
+    </edge>
+    <edge source="n34" target="n53">
+      <data key="e_weight">2.44624</data>
+    </edge>
+    <edge source="n34" target="n54">
+      <data key="e_weight">2.10279</data>
+    </edge>
+    <edge source="n34" target="n68">
+      <data key="e_weight">0.83626</data>
+    </edge>
+    <edge source="n34" target="n72">
+      <data key="e_weight">1.99305</data>
+    </edge>
+    <edge source="n35" target="n38">
+      <data key="e_weight">0.378833</data>
+    </edge>
+    <edge source="n35" target="n48">
+      <data key="e_weight">2.04642</data>
+    </edge>
+    <edge source="n35" target="n57">
+      <data key="e_weight">1.39169</data>
+    </edge>
+    <edge source="n35" target="n72">
+      <data key="e_weight">3.42826</data>
+    </edge>
+    <edge source="n36" target="n43">
+      <data key="e_weight">0.00826888</data>
+    </edge>
+    <edge source="n36" target="n45">
+      <data key="e_weight">2.42274</data>
+    </edge>
+    <edge source="n36" target="n65">
+      <data key="e_weight">2.01833</data>
+    </edge>
+    <edge source="n36" target="n74">
+      <data key="e_weight">3.13514</data>
+    </edge>
+    <edge source="n37" target="n50">
+      <data key="e_weight">0.934226</data>
+    </edge>
+    <edge source="n37" target="n62">
+      <data key="e_weight">1.89398</data>
+    </edge>
+    <edge source="n37" target="n68">
+      <data key="e_weight">0.0576609</data>
+    </edge>
+    <edge source="n37" target="n72">
+      <data key="e_weight">2.497</data>
+    </edge>
+    <edge source="n37" target="n73">
+      <data key="e_weight">2.48417</data>
+    </edge>
+    <edge source="n38" target="n52">
+      <data key="e_weight">0.0693626</data>
+    </edge>
+    <edge source="n38" target="n61">
+      <data key="e_weight">2.24089</data>
+    </edge>
+    <edge source="n38" target="n64">
+      <data key="e_weight">2.49501</data>
+    </edge>
+    <edge source="n38" target="n65">
+      <data key="e_weight">2.12071</data>
+    </edge>
+    <edge source="n38" target="n68">
+      <data key="e_weight">2.57622</data>
+    </edge>
+    <edge source="n39" target="n48">
+      <data key="e_weight">2.04642</data>
+    </edge>
+    <edge source="n39" target="n71">
+      <data key="e_weight">2.77914</data>
+    </edge>
+    <edge source="n40" target="n59">
+      <data key="e_weight">1.84361</data>
+    </edge>
+    <edge source="n40" target="n65">
+      <data key="e_weight">2.26274</data>
+    </edge>
+    <edge source="n40" target="n66">
+      <data key="e_weight">2.10788</data>
+    </edge>
+    <edge source="n40" target="n67">
+      <data key="e_weight">5.17465</data>
+    </edge>
+    <edge source="n41" target="n43">
+      <data key="e_weight">0.44045</data>
+    </edge>
+    <edge source="n41" target="n58">
+      <data key="e_weight">0.068617</data>
+    </edge>
+    <edge source="n41" target="n66">
+      <data key="e_weight">2.05219</data>
+    </edge>
+    <edge source="n41" target="n67">
+      <data key="e_weight">2.55115</data>
+    </edge>
+    <edge source="n41" target="n70">
+      <data key="e_weight">1.94136</data>
+    </edge>
+    <edge source="n41" target="n74">
+      <data key="e_weight">2.81446</data>
+    </edge>
+    <edge source="n42" target="n58">
+      <data key="e_weight">2.7895</data>
+    </edge>
+    <edge source="n42" target="n63">
+      <data key="e_weight">0.196328</data>
+    </edge>
+    <edge source="n42" target="n69">
+      <data key="e_weight">1.43272</data>
+    </edge>
+    <edge source="n42" target="n74">
+      <data key="e_weight">3.04837</data>
+    </edge>
+    <edge source="n43" target="n45">
+      <data key="e_weight">2.29646</data>
+    </edge>
+    <edge source="n43" target="n60">
+      <data key="e_weight">1.84466</data>
+    </edge>
+    <edge source="n43" target="n70">
+      <data key="e_weight">2.9113</data>
+    </edge>
+    <edge source="n44" target="n46">
+      <data key="e_weight">0.840295</data>
+    </edge>
+    <edge source="n44" target="n48">
+      <data key="e_weight">2.61506</data>
+    </edge>
+    <edge source="n44" target="n69">
+      <data key="e_weight">2.55294</data>
+    </edge>
+    <edge source="n44" target="n70">
+      <data key="e_weight">1.80326</data>
+    </edge>
+    <edge source="n44" target="n74">
+      <data key="e_weight">2.72496</data>
+    </edge>
+    <edge source="n45" target="n65">
+      <data key="e_weight">1.94913</data>
+    </edge>
+    <edge source="n45" target="n69">
+      <data key="e_weight">2.94251</data>
+    </edge>
+    <edge source="n45" target="n74">
+      <data key="e_weight">3.06593</data>
+    </edge>
+    <edge source="n46" target="n50">
+      <data key="e_weight">0.583872</data>
+    </edge>
+    <edge source="n46" target="n56">
+      <data key="e_weight">1.80316</data>
+    </edge>
+    <edge source="n46" target="n59">
+      <data key="e_weight">1.05424</data>
+    </edge>
+    <edge source="n46" target="n74">
+      <data key="e_weight">8.95172</data>
+    </edge>
+    <edge source="n47" target="n57">
+      <data key="e_weight">1.56179</data>
+    </edge>
+    <edge source="n47" target="n68">
+      <data key="e_weight">2.65989</data>
+    </edge>
+    <edge source="n47" target="n72">
+      <data key="e_weight">7.36465</data>
+    </edge>
+    <edge source="n47" target="n73">
+      <data key="e_weight">3.75345</data>
+    </edge>
+    <edge source="n48" target="n68">
+      <data key="e_weight">3.54898</data>
+    </edge>
+    <edge source="n48" target="n71">
+      <data key="e_weight">3.69562</data>
+    </edge>
+    <edge source="n49" target="n58">
+      <data key="e_weight">1.25401</data>
+    </edge>
+    <edge source="n49" target="n65">
+      <data key="e_weight">1.54535</data>
+    </edge>
+    <edge source="n49" target="n69">
+      <data key="e_weight">2.53873</data>
+    </edge>
+    <edge source="n49" target="n70">
+      <data key="e_weight">1.15784</data>
+    </edge>
+    <edge source="n49" target="n71">
+      <data key="e_weight">1.60091</data>
+    </edge>
+    <edge source="n49" target="n74">
+      <data key="e_weight">2.66215</data>
+    </edge>
+    <edge source="n50" target="n51">
+      <data key="e_weight">1.0128</data>
+    </edge>
+    <edge source="n50" target="n63">
+      <data key="e_weight">1.37651</data>
+    </edge>
+    <edge source="n50" target="n64">
+      <data key="e_weight">2.30301</data>
+    </edge>
+    <edge source="n50" target="n73">
+      <data key="e_weight">4.15107</data>
+    </edge>
+    <edge source="n50" target="n74">
+      <data key="e_weight">4.22855</data>
+    </edge>
+    <edge source="n51" target="n60">
+      <data key="e_weight">0.992863</data>
+    </edge>
+    <edge source="n51" target="n61">
+      <data key="e_weight">1.07623</data>
+    </edge>
+    <edge source="n51" target="n69">
+      <data key="e_weight">2.80919</data>
+    </edge>
+    <edge source="n51" target="n74">
+      <data key="e_weight">7.99092</data>
+    </edge>
+    <edge source="n52" target="n53">
+      <data key="e_weight">0.729407</data>
+    </edge>
+    <edge source="n52" target="n55">
+      <data key="e_weight">1.65395</data>
+    </edge>
+    <edge source="n52" target="n62">
+      <data key="e_weight">2.60988</data>
+    </edge>
+    <edge source="n52" target="n64">
+      <data key="e_weight">4.34089</data>
+    </edge>
+    <edge source="n52" target="n65">
+      <data key="e_weight">2.5602</data>
+    </edge>
+    <edge source="n52" target="n73">
+      <data key="e_weight">3.25446</data>
+    </edge>
+    <edge source="n53" target="n54">
+      <data key="e_weight">0.0682428</data>
+    </edge>
+    <edge source="n53" target="n67">
+      <data key="e_weight">2.62805</data>
+    </edge>
+    <edge source="n53" target="n73">
+      <data key="e_weight">3.23034</data>
+    </edge>
+    <edge source="n54" target="n58">
+      <data key="e_weight">1.81242</data>
+    </edge>
+    <edge source="n54" target="n65">
+      <data key="e_weight">2.10376</data>
+    </edge>
+    <edge source="n54" target="n74">
+      <data key="e_weight">3.22057</data>
+    </edge>
+    <edge source="n55" target="n60">
+      <data key="e_weight">1.14585</data>
+    </edge>
+    <edge source="n55" target="n65">
+      <data key="e_weight">5.55699</data>
+    </edge>
+    <edge source="n55" target="n67">
+      <data key="e_weight">2.26274</data>
+    </edge>
+    <edge source="n55" target="n69">
+      <data key="e_weight">2.96217</data>
+    </edge>
+    <edge source="n55" target="n70">
+      <data key="e_weight">4.47523</data>
+    </edge>
+    <edge source="n56" target="n59">
+      <data key="e_weight">1.00053</data>
+    </edge>
+    <edge source="n56" target="n61">
+      <data key="e_weight">0.593588</data>
+    </edge>
+    <edge source="n56" target="n69">
+      <data key="e_weight">5.54485</data>
+    </edge>
+    <edge source="n56" target="n70">
+      <data key="e_weight">1.83514</data>
+    </edge>
+    <edge source="n56" target="n74">
+      <data key="e_weight">7.28391</data>
+    </edge>
+    <edge source="n57" target="n60">
+      <data key="e_weight">0.0105112</data>
+    </edge>
+    <edge source="n57" target="n68">
+      <data key="e_weight">3.78488</data>
+    </edge>
+    <edge source="n57" target="n71">
+      <data key="e_weight">3.73571</data>
+    </edge>
+    <edge source="n57" target="n72">
+      <data key="e_weight">3.88598</data>
+    </edge>
+    <edge source="n57" target="n73">
+      <data key="e_weight">3.87315</data>
+    </edge>
+    <edge source="n58" target="n65">
+      <data key="e_weight">3.63346</data>
+    </edge>
+    <edge source="n58" target="n66">
+      <data key="e_weight">2.07357</data>
+    </edge>
+    <edge source="n58" target="n67">
+      <data key="e_weight">2.57253</data>
+    </edge>
+    <edge source="n59" target="n63">
+      <data key="e_weight">1.84689</data>
+    </edge>
+    <edge source="n59" target="n64">
+      <data key="e_weight">2.58085</data>
+    </edge>
+    <edge source="n59" target="n66">
+      <data key="e_weight">3.49313</data>
+    </edge>
+    <edge source="n59" target="n74">
+      <data key="e_weight">4.69892</data>
+    </edge>
+    <edge source="n60" target="n65">
+      <data key="e_weight">3.10186</data>
+    </edge>
+    <edge source="n60" target="n68">
+      <data key="e_weight">0.221979</data>
+    </edge>
+    <edge source="n60" target="n69">
+      <data key="e_weight">4.09524</data>
+    </edge>
+    <edge source="n60" target="n72">
+      <data key="e_weight">3.87132</data>
+    </edge>
+    <edge source="n60" target="n73">
+      <data key="e_weight">3.85849</data>
+    </edge>
+    <edge source="n61" target="n62">
+      <data key="e_weight">1.42453</data>
+    </edge>
+    <edge source="n61" target="n69">
+      <data key="e_weight">2.67634</data>
+    </edge>
+    <edge source="n61" target="n71">
+      <data key="e_weight">4.28016</data>
+    </edge>
+    <edge source="n61" target="n72">
+      <data key="e_weight">5.29032</data>
+    </edge>
+    <edge source="n61" target="n74">
+      <data key="e_weight">4.29198</data>
+    </edge>
+    <edge source="n62" target="n63">
+      <data key="e_weight">5.84693</data>
+    </edge>
+    <edge source="n62" target="n64">
+      <data key="e_weight">3.26276</data>
+    </edge>
+    <edge source="n62" target="n67">
+      <data key="e_weight">4.50853</data>
+    </edge>
+    <edge source="n62" target="n69">
+      <data key="e_weight">3.79098</data>
+    </edge>
+    <edge source="n62" target="n74">
+      <data key="e_weight">5.40662</data>
+    </edge>
+    <edge source="n63" target="n64">
+      <data key="e_weight">2.08887</data>
+    </edge>
+    <edge source="n63" target="n66">
+      <data key="e_weight">3.00115</data>
+    </edge>
+    <edge source="n63" target="n67">
+      <data key="e_weight">3.33463</data>
+    </edge>
+    <edge source="n63" target="n69">
+      <data key="e_weight">3.80638</data>
+    </edge>
+    <edge source="n63" target="n73">
+      <data key="e_weight">3.93693</data>
+    </edge>
+    <edge source="n63" target="n74">
+      <data key="e_weight">5.42202</data>
+    </edge>
+    <edge source="n64" target="n65">
+      <data key="e_weight">6.83754</data>
+    </edge>
+    <edge source="n64" target="n66">
+      <data key="e_weight">2.97156</data>
+    </edge>
+    <edge source="n64" target="n69">
+      <data key="e_weight">2.7</data>
+    </edge>
+    <edge source="n64" target="n73">
+      <data key="e_weight">3.90734</data>
+    </edge>
+    <edge source="n65" target="n70">
+      <data key="e_weight">4.1685</data>
+    </edge>
+    <edge source="n66" target="n67">
+      <data key="e_weight">9.11984</data>
+    </edge>
+    <edge source="n66" target="n73">
+      <data key="e_weight">4.81962</data>
+    </edge>
+    <edge source="n66" target="n74">
+      <data key="e_weight">3.67504</data>
+    </edge>
+    <edge source="n68" target="n71">
+      <data key="e_weight">4.61549</data>
+    </edge>
+    <edge source="n68" target="n72">
+      <data key="e_weight">14.277</data>
+    </edge>
+    <edge source="n68" target="n73">
+      <data key="e_weight">8.6385</data>
+    </edge>
+    <edge source="n69" target="n70">
+      <data key="e_weight">5.16189</data>
+    </edge>
+    <edge source="n69" target="n74">
+      <data key="e_weight">6.65842</data>
+    </edge>
+    <edge source="n70" target="n71">
+      <data key="e_weight">12.4676</data>
+    </edge>
+    <edge source="n70" target="n74">
+      <data key="e_weight">5.28531</data>
+    </edge>
+    <edge source="n71" target="n73">
+      <data key="e_weight">5.23832</data>
+    </edge>
+    <edge source="n72" target="n73">
+      <data key="e_weight">14.5999</data>
+    </edge>
+  </graph>
+</graphml>
